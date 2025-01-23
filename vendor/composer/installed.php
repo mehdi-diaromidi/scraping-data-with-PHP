@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '99b26f37ce2c61b4ad439c11f9ac0ffe429486e7',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '99b26f37ce2c61b4ad439c11f9ac0ffe429486e7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -106,6 +106,15 @@
             'reference' => '120b605dfeb996808c31b6477290a714d356e822',
             'type' => 'library',
             'install_path' => __DIR__ . '/../ralouphie/getallheaders',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/css-selector' => array(
+            'pretty_version' => 'v7.2.0',
+            'version' => '7.2.0.0',
+            'reference' => '601a5ce9aaad7bf10797e3663faefce9e26c24e2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/css-selector',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
